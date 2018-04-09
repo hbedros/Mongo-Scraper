@@ -11,7 +11,7 @@ An app that scrapes articles from the New York Times website and lets users save
 - Saved articles can be deleted by clicking the "Delete" button.
 - Add notes on articles and save them to the db.
 
-[Check out the App]()
+[Check out the App](https://hb-scraper.herokuapp.com/)
 
 ## Technologies Used
 - Node.js

@@ -10,9 +10,10 @@ const exphbs = require("express-handlebars");
 const Note = require("./models/notes.js");
 const Article = require("./models/articles.js");
 
-const PORT = process.env.PORT || 3000;
-
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoScraper"
 mongoose.Promise = Promise;
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -30,8 +31,7 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-mongoose.connect("mongodb://basicUser:Password1234@ds121238.mlab.com:21238/heroku_brmzrqc0");
-// mongoose.connect("mongodb://localhost/mongoScraper")
+mongoose.connect(MONGODB_URI)
 const db = mongoose.connection;
 
 db.on("error", function (error) {

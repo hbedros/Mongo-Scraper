@@ -7,15 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hbedros/Mongo-Scraper.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hbedros/Mongo-Scraper/issues"
-  },
   "homepage": "https://github.com/hbedros/Mongo-Scraper#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -27,5 +18,14 @@
     "path": "^0.12.7",
     "request": "^2.85.0",
     "request-promise": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbedros/Mongo-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbedros/Mongo-Scraper/issues"
   }
 }

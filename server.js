@@ -10,9 +10,9 @@ const exphbs = require("express-handlebars");
 const Note = require("./models/notes.js");
 const Article = require("./models/articles.js");
 
-mongoose.Promise = Promise;
-
 const PORT = process.env.PORT || 3000;
+
+mongoose.Promise = Promise;
 
 const app = express();
 

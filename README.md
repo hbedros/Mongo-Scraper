@@ -9,6 +9,7 @@ An app that scrapes articles from the New York Times website and lets users save
 - Once articles are loaded, read full article by clicking the link in each article's panel and save articles by clicking the "Save Article" button.
 - Saved articles can be viewed at the "Saved Articles" page.
 - Saved articles can be deleted by clicking the "Delete" button.
+- Add notes on articles and save them to the db.
 
 [Check out the App]()
 

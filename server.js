@@ -30,8 +30,8 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-// mongoose.connect("mongodb://basicUser:Password1234@ds121238.mlab.com:21238/heroku_brmzrqc0");
-mongoose.connect("mongodb://localhost/mongoScraper")
+mongoose.connect("mongodb://basicUser:Password1234@ds121238.mlab.com:21238/heroku_brmzrqc0");
+// mongoose.connect("mongodb://localhost/mongoScraper")
 const db = mongoose.connection;
 
 db.on("error", function (error) {

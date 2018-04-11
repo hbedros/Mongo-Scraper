@@ -44,6 +44,10 @@ db.once("open", function () {
 
 app.get("/", function(req, res) {
     Article.find({"saved": false}, function(error, data){
+        if (error) {
+            return error
+        }
+        
         let hbsObject = {
             article: data
         };
